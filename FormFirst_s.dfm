@@ -2,8 +2,8 @@ object FormFirst: TFormFirst
   Left = 1148
   Top = 224
   Caption = #1052#1080#1085#1080#1061#1086#1087#1077
-  ClientHeight = 202
-  ClientWidth = 277
+  ClientHeight = 211
+  ClientWidth = 253
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
   Font.Color = clWindowText
@@ -294,8 +294,8 @@ object FormFirst: TFormFirst
   end
   object BBClose: TBitBtn
     Left = 0
-    Top = 161
-    Width = 277
+    Top = 170
+    Width = 253
     Height = 41
     Align = alBottom
     Caption = #1042#1099#1093#1086#1076
