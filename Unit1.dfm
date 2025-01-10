@@ -11,4 +11,13 @@ object Form1: TForm1
   Font.Name = 'Segoe UI'
   Font.Style = []
   TextHeight = 15
+  object Memo1: TMemo
+    Left = 240
+    Top = 200
+    Width = 185
+    Height = 89
+    Lines.Strings = (
+      'Memo1')
+    TabOrder = 0
+  end
 end
