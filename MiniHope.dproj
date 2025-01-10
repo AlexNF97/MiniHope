@@ -90,10 +90,10 @@
         <Icon_MainIcon>MiniHope_Icon1.ico</Icon_MainIcon>
         <UWP_DelphiLogo44>Win32\рост.png</UWP_DelphiLogo44>
         <UWP_DelphiLogo150>Win32\рост.png</UWP_DelphiLogo150>
-        <VerInfo_Build>84</VerInfo_Build>
-        <VerInfo_Keys>CompanyName=NF;FileDescription=$(MSBuildProjectName);FileVersion=1.0.1.84;InternalName=;LegalCopyright=ShindyapinAD;LegalTrademarks=;OriginalFilename=;ProgramID=com.embarcadero.$(MSBuildProjectName);ProductName=$(MSBuildProjectName);ProductVersion=0.0.0.1;Comments=</VerInfo_Keys>
+        <VerInfo_Build>1</VerInfo_Build>
+        <VerInfo_Keys>CompanyName=NF;FileDescription=$(MSBuildProjectName);FileVersion=0.0.0.1;InternalName=;LegalCopyright=AlexNF97;LegalTrademarks=;OriginalFilename=;ProgramID=com.embarcadero.$(MSBuildProjectName);ProductName=$(MSBuildProjectName);ProductVersion=0.0.0.1;Comments=</VerInfo_Keys>
         <VerInfo_AutoIncVersion>true</VerInfo_AutoIncVersion>
-        <VerInfo_Release>1</VerInfo_Release>
+        <VerInfo_MajorVer>0</VerInfo_MajorVer>
     </PropertyGroup>
     <PropertyGroup Condition="'$(Cfg_2)'!=''">
         <DCC_LocalDebugSymbols>false</DCC_LocalDebugSymbols>
@@ -174,7 +174,6 @@
                     <Source Name="MainSource">MiniHope.dpr</Source>
                 </Source>
                 <Excluded_Packages>
-                    <Excluded_Packages Name="C:\Users\Public\Documents\Embarcadero\Studio\22.0\Bpl\SSH.bpl">File C:\Users\Public\Documents\Embarcadero\Studio\22.0\Bpl\SSH.bpl not found</Excluded_Packages>
                     <Excluded_Packages Name="$(BDSBIN)\bcboffice2k280.bpl">Embarcadero C++Builder Office 2000 Servers Package</Excluded_Packages>
                     <Excluded_Packages Name="$(BDSBIN)\bcbofficexp280.bpl">Embarcadero C++Builder Office XP Servers Package</Excluded_Packages>
                     <Excluded_Packages Name="$(BDSBIN)\dcloffice2k280.bpl">Microsoft Office 2000 Sample Automation Server Wrapper Components</Excluded_Packages>
