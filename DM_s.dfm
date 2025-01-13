@@ -980,8 +980,8 @@
       'join NFGLOBALS.office o on o.office_id = p.office_id'
       'join zakaz_type_prog ztp on ztp.id_type_zakaz = z.type_zakaz'
       'where z.date_zakaz between :date1 and :date2')
-    Left = 376
-    Top = 272
+    Left = 352
+    Top = 256
     ParamData = <
       item
         DataType = ftDateTime
@@ -1063,8 +1063,8 @@
   end
   object DSZakaz: TOraDataSource
     DataSet = QueryZakaz
-    Left = 440
-    Top = 272
+    Left = 432
+    Top = 256
   end
   object QueryGoods: TOraQuery
     Session = ADOConnect
