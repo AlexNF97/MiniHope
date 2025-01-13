@@ -47,7 +47,7 @@ var
 
 Const
   CAPTION_MB = 'Проверка обновления';
-  URL_GITHUB_RELEASES = 'https://github.com/AlexNF97/MiniHope.git';
+  URL_GITHUB_RELEASES = 'https://api.github.com/repos/AlexNF97/MiniHope';
   lv_files = 0;
   lv_size  = 1;
   lv_url   = 2;
@@ -68,7 +68,7 @@ var
 begin
   if sLVFiles.Selected = Nil then
   begin
-    MessageBox(Handle, PChar('Ни один файл не выбран для скачивания.'),
+    MessageBox(Handle, PChar('Не выбран файл для скачивания.'),
                PChar(CAPTION_MB), MB_ICONWARNING);
     Exit;
   end;
@@ -89,7 +89,7 @@ begin
     MessageBox(Handle, PChar('Файл "' + sLVFiles.Selected.SubItems[lv_files] + '" успешно загружен!'),
       PChar(CAPTION_MB), MB_ICONINFORMATION)
   else
-    MessageBox(Handle, PChar('Загружаемый файл "' + sLVFiles.Selected.SubItems[lv_files] + '" чегото не найден...'),
+    MessageBox(Handle, PChar('Загружаемый файл "' + sLVFiles.Selected.SubItems[lv_files] + '" не найден...'),
       PChar(CAPTION_MB), MB_ICONINFORMATION);
 end;
 

@@ -47,7 +47,7 @@ object FrmGitUpdate: TFrmGitUpdate
     Width = 457
     Height = 21
     TabOrder = 2
-    Text = 'https://github.com/AlexNF97/MiniHope.git'
+    Text = 'https://api.github.com/repos/AlexNF97/MiniHope'
   end
   object sBtnCheckUpdate: TButton
     Left = 471
