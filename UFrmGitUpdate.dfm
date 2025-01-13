@@ -2,7 +2,7 @@ object FrmGitUpdate: TFrmGitUpdate
   Left = 0
   Top = 0
   Caption = #1054#1073#1085#1086#1074#1083#1077#1085#1080#1077' '#1087#1088#1086#1075#1088#1072#1084#1084#1099
-  ClientHeight = 609
+  ClientHeight = 606
   ClientWidth = 861
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -39,8 +39,6 @@ object FrmGitUpdate: TFrmGitUpdate
     Top = 72
     Width = 845
     Height = 346
-    Lines.Strings = (
-      'Memo1')
     TabOrder = 1
   end
   object sEdURLApiReliases: TEdit
@@ -72,9 +70,7 @@ object FrmGitUpdate: TFrmGitUpdate
   object RESTClient: TRESTClient
     Accept = 'application/json, text/plain; q=0.9, text/html;q=0.8,'
     AcceptCharset = 'utf-8, *;q=0.8'
-    BaseURL = 
-      'https://api.github.com/repos/superbot-coder/chia_plotting_tools/' +
-      'releases'
+    BaseURL = 'https://github.com/AlexNF97/MiniHope.git'
     Params = <>
     RaiseExceptionOn500 = False
     SynchronizedEvents = False
@@ -96,7 +92,7 @@ object FrmGitUpdate: TFrmGitUpdate
   object ImageList: TImageList
     ColorDepth = cd32Bit
     DrawingStyle = dsTransparent
-    Left = 392
+    Left = 376
     Top = 120
     Bitmap = {
       494C010104000800040010001000FFFFFFFF2110FFFFFFFFFFFFFFFF424D3600

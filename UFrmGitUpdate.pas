@@ -166,7 +166,7 @@ begin
       Exit;
     end;
 
-    mmInfo.Lines.Add('Было обнаружена новая версия программы: ' + tag_name);
+    mmInfo.Lines.Add('Была обнаружена новая версия программы: ' + tag_name);
     if LastRelease.FindValue('body') <> Nil then
     begin
       mmInfo.Lines.Add('Описание:');
