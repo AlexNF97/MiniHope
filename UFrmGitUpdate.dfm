@@ -70,7 +70,7 @@ object FrmGitUpdate: TFrmGitUpdate
   object RESTClient: TRESTClient
     Accept = 'application/json, text/plain; q=0.9, text/html;q=0.8,'
     AcceptCharset = 'utf-8, *;q=0.8'
-    BaseURL = 'https://github.com/AlexNF97/MiniHope.git'
+    BaseURL = 'https://api.github.com/repos/AlexNF97/MiniHope'
     Params = <>
     RaiseExceptionOn500 = False
     SynchronizedEvents = False
