@@ -153,6 +153,10 @@
             <Form>FormGoods</Form>
             <FormType>dfm</FormType>
         </DCCReference>
+        <DCCReference Include="UFrmGitUpdate.pas">
+            <Form>FrmGitUpdate</Form>
+            <FormType>dfm</FormType>
+        </DCCReference>
         <BuildConfiguration Include="Base">
             <Key>Base</Key>
         </BuildConfiguration>

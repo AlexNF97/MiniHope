@@ -14,7 +14,8 @@ uses
   FormAgentsRelease_s in 'FormAgentsRelease_s.pas' {FormAgentsRelease},
   FormReleaseBody_s in 'FormReleaseBody_s.pas' {FormReleaseBody},
   FormZakaz_s in 'FormZakaz_s.pas' {FormZakaz},
-  FormGoods_s in 'FormGoods_s.pas' {FormGoods};
+  FormGoods_s in 'FormGoods_s.pas' {FormGoods},
+  UFrmGitUpdate in 'UFrmGitUpdate.pas' {FrmGitUpdate};
 
 {$R *.res}
 
@@ -33,6 +34,7 @@ begin
   Application.CreateForm(TFormReleaseBody, FormReleaseBody);
   Application.CreateForm(TFormZakaz, FormZakaz);
   Application.CreateForm(TFormGoods, FormGoods);
+  Application.CreateForm(TFrmGitUpdate, FrmGitUpdate);
   //  Application.CreateForm(TFormUpdate, FormUpdate);
   Application.Run;
 end.
