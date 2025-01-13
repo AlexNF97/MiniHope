@@ -877,10 +877,10 @@ object FormFirst: TFormFirst
     OnClick = BBGoodsClick
   end
   object BitBtn1: TBitBtn
-    Left = 118
+    Left = 94
     Top = 100
     Width = 80
-    Height = 40
+    Height = 53
     Caption = #1054#1073#1085#1086#1074#1072
     TabOrder = 6
     OnClick = BitBtn1Click
