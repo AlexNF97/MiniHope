@@ -61,7 +61,7 @@ object FrmGitUpdate: TFrmGitUpdate
   object sBtnUpdate: TButton
     Left = 615
     Top = 31
-    Width = 130
+    Width = 154
     Height = 23
     Caption = #1057#1082#1072#1095#1072#1090#1100
     TabOrder = 4
