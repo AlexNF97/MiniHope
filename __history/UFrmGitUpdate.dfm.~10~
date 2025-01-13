@@ -1,8 +1,8 @@
 object FrmGitUpdate: TFrmGitUpdate
   Left = 0
   Top = 0
-  Caption = 'FrmGitUpdate'
-  ClientHeight = 609
+  Caption = #1054#1073#1085#1086#1074#1083#1077#1085#1080#1077' '#1087#1088#1086#1075#1088#1072#1084#1084#1099
+  ClientHeight = 595
   ClientWidth = 861
   Color = clBtnFace
   Font.Charset = DEFAULT_CHARSET
@@ -15,7 +15,7 @@ object FrmGitUpdate: TFrmGitUpdate
   TextHeight = 13
   object sLVFiles: TListView
     Left = 8
-    Top = 424
+    Top = 411
     Width = 845
     Height = 174
     Columns = <
@@ -36,11 +36,9 @@ object FrmGitUpdate: TFrmGitUpdate
   end
   object mmInfo: TMemo
     Left = 8
-    Top = 72
+    Top = 59
     Width = 845
     Height = 346
-    Lines.Strings = (
-      'Memo1')
     TabOrder = 1
   end
   object sEdURLApiReliases: TEdit
@@ -49,7 +47,7 @@ object FrmGitUpdate: TFrmGitUpdate
     Width = 457
     Height = 21
     TabOrder = 2
-    Text = 'https://github.com/AlexNF97/MiniHope.git'
+    Text = 'https://api.github.com/repos/AlexNF97/MiniHope'
   end
   object sBtnCheckUpdate: TButton
     Left = 471
@@ -63,7 +61,7 @@ object FrmGitUpdate: TFrmGitUpdate
   object sBtnUpdate: TButton
     Left = 615
     Top = 31
-    Width = 130
+    Width = 154
     Height = 23
     Caption = #1057#1082#1072#1095#1072#1090#1100
     TabOrder = 4
@@ -72,9 +70,7 @@ object FrmGitUpdate: TFrmGitUpdate
   object RESTClient: TRESTClient
     Accept = 'application/json, text/plain; q=0.9, text/html;q=0.8,'
     AcceptCharset = 'utf-8, *;q=0.8'
-    BaseURL = 
-      'https://api.github.com/repos/superbot-coder/chia_plotting_tools/' +
-      'releases'
+    BaseURL = 'https://api.github.com/repos/AlexNF97/MiniHope'
     Params = <>
     RaiseExceptionOn500 = False
     SynchronizedEvents = False
