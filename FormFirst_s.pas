@@ -15,6 +15,7 @@ type
     BBRelease: TBitBtn;
     BBZakaz: TBitBtn;
     BBGoods: TBitBtn;
+    BitBtn1: TBitBtn;
     procedure BBSearchIPClick(Sender: TObject);
     procedure BBCloseClick(Sender: TObject);
     procedure SaveSettings;
@@ -27,6 +28,7 @@ type
     procedure BBReleaseClick(Sender: TObject);
     procedure BBZakazClick(Sender: TObject);
     procedure BBGoodsClick(Sender: TObject);
+    procedure BitBtn1Click(Sender: TObject);
   private
     { Private declarations }
     Reg: TRegistry;
@@ -42,7 +44,8 @@ implementation
 
 {$R *.dfm}
 
-uses FormSearch_s, FormInvoice_s, FormUpdate_s, FormRelease_s, DM_s, FormZakaz_s, FormGoods_s;
+uses FormSearch_s, FormInvoice_s, FormUpdate_s, FormRelease_s, DM_s, FormZakaz_s, FormGoods_s,
+  UFrmGitUpdate;
 
 procedure TFormFirst.BBCloseClick(Sender: TObject);
 begin
@@ -71,6 +74,12 @@ procedure TFormFirst.BBZakazClick(Sender: TObject);
 begin
   FormZakaz.Position:= poMainFormCenter;
   FormZakaz.Show;
+end;
+
+procedure TFormFirst.BitBtn1Click(Sender: TObject);
+begin
+  FrmGitUpdate.Position:= poMainFormCenter;
+  FrmGitUpdate.Show;
 end;
 
 procedure TFormFirst.BBGoodsClick(Sender: TObject);
